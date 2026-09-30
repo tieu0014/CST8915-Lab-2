@@ -33,6 +33,6 @@ Why is it important to use environment variables instead of hard-coding configur
 "It ensures separation between the code and the configuration for better portability and security"
 
 ### Separate Repositories
-Why is it important to have separate repositories for each microservice? How does this help maintain independence and scalability of each service?
-<br>
+Why is it important to have separate repositories for each microservice? How does this help maintain independence and scalability of each service?<br>
+
 "Each service can be deployed separately without having to deploy the entire system", "changes in one service will have minimal or no impact on other services". Possibly multiple instances of of the microservice can be deployed at a time, allowing it to scale with the number of instances.
